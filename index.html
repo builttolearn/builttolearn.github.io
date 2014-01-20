@@ -189,8 +189,8 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 
 {% if paginator.total_pages != 1 %} 
 {% if paginator.total_pages < 7 %}
-        <div class="page-body col-md-12">
-          <ul class="pagination pagination-centered">
+        <div class="page-body col-md-12 col-md-offset-5">
+          <ul class="pagination">
             {% if paginator.total_pages >= 10 %} 
             {% if paginator.previous_page %}
                 <li>
@@ -275,9 +275,9 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 {% assign page_end = paginator.page | plus: 4 %}
 {% assign page_start = paginator.page %}
 {% endif %}
- 
-<div class="page-body col-md-12">
-    <ul class="pagination pagination-centered">
+
+<div class="page-body col-md-12 col-md-offset-5">
+    <ul class="pagination">
     {% if paginator.total_pages > 5 %} 
     {% if paginator.previous_page %}
         <li>
