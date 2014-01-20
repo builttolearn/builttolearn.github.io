@@ -29,10 +29,10 @@ owner:
 authors:
   tlvince:
     name: Tom Vincent
-    display_name: Tom
-    gravatar: c66919cb194f96c696c1da0c47354a6a
+    bio: Founder, developer, musician
+    gravatar: 4103b4e9e71e7d5f14b740c9d36c231f
     email: tom@webuiltthis.com
-    web: http://company.com
+    web: http://tlvince.com
     twitter: tlvince
     github: tlvince
 
