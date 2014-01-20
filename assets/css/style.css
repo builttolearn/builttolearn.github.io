@@ -386,10 +386,6 @@ a:hover {
 .pagination {
   color: #597369;
 }
-.bordered-top:after,
-.bordered-bottom:after {
-  background-color: #8aa69c;
-}
 #footer {
   color: #fff;
 }
