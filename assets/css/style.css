@@ -672,6 +672,12 @@ html {
 .menu-items li {
   display: inline-block;
 }
+.menu-items li, .menu-items li a {
+  color: whitesmoke;
+ }
+.menu-items li a:hover {
+  color: white;
+}
 
 /* - Responsive videos -*/
 .videoWrapper {
@@ -2397,7 +2403,6 @@ input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-se
 }
 .dosearch {
     display: block;
-    padding: 6px 10px;
     color: #fff;
     cursor: pointer;
     -webkit-border-radius: 4px;
