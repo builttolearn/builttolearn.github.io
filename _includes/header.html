@@ -22,16 +22,16 @@
             {% for link in site.links %}
                 <li>
                     {% if link.external %}
-                    <a href="{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>
+                    <a href="{{ link.url }}">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>
                     {% else %}
-                    <a href="{{ site.url }}{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>
+                    <a href="{{ site.url }}{{ link.url }}">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>
                     {% endif %}
                     {% unless forloop.last %}
                     &nbsp;&bull;&nbsp;
                     {% endunless %}
                 </li>
             {% endfor %}
-            {% if site.search %}<li class="dosearch"><i class="icon-search"></i> Search</li>{% endif %}
+            {% if site.search %}<li class="dosearch"><i class="fa fa-search"></i> Search</li>{% endif %}
         </ul>
     </div>
 </div>
