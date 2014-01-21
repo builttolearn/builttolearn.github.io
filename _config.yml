@@ -5,7 +5,7 @@ logo:             gamma-1.png
 default_bg:       blog_image-1.jpg
 search:			      false
 #Change url to your domain. Leave localhost:4000 server or blank when working locally.
-# url:              http://hmfaysal.github.io
+url:              http://www.builttolearn.com
 
 # Owner/author information
 owner:
