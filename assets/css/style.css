@@ -645,8 +645,7 @@ html {
 }
 .social-mini li {
   display: inline-block;
-  font-size: 16px;
-  padding: 0 12px;
+  padding: 0 10px;
 }
 
 .social-icons a {
@@ -2056,4 +2055,7 @@ ol.CodeRay li {
 }
 #main p {
     margin-bottom: 1.5em;
+}
+.entry-tags p, .copy-text, .menu-items li a {
+    font-size: 0.8em;
 }
