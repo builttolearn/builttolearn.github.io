@@ -1,4 +1,4 @@
-title:            We Built This
+title:            Built to Learn
 description:      Lessons learnt buiding micro-businesses
 logo:             gamma-1.png
 # disqus_shortname: hmfaysal
@@ -9,22 +9,21 @@ search:			      false
 
 # Owner/author information
 owner:
-  name:           We Built This
-  avatar:         hmfaysal.jpg
-  email:          hmfaysal@alum.mit.edu
-  description:    Hossain Mohammad Faysal is an Electrical Engineer and a Mathematician based in Doha, Qatar. His interests are anything that&#8217;s related to math, from math itself to programming languages to music to physics to engineering to philosophy.
+  name:           Built to Learn
+  email:          builttolearn@gmail.com
+  description:    Lessons learnt buiding micro-businesses
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        hmfaysal
-  facebook:       hmfaysal
-  github:         hmfaysal
-  stackexchange:  https://stackexchange.com/users/3402032/hossain-mohd-faysal
+  twitter:        builttolearn
+  facebook:       www.builttolearn
+  github:
+  stackexchange:
   linkedin:
   instagram:
   flickr:
   tumblr:
-  hmfaysalsocial:	hmfaysal
+  hmfaysalsocial:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/0/102602916593522619858
+  google_plus: 	https://plus.google.com/115011608222039620661
 
 authors:
   tlvince:
@@ -37,10 +36,10 @@ authors:
     github: tlvince
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-39365944-7
+google_analytics:
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         E9492EC66B5CCD89D3A5F4BC9F3FEC3E
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -53,7 +52,7 @@ links:
     url: /contact
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/London
 future:      true
 pygments:    true
 markdown:    kramdown
@@ -61,7 +60,7 @@ paginate:    4
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink:   /:title
 
 kramdown:
   auto_ids: true
