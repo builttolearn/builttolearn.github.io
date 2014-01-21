@@ -530,10 +530,6 @@ html {
   margin: 0 auto 24px;
 }
 /* -  Pagination - */
-.pagination {
-  display: block;
-  position: relative;
-}
 .older-posts,
 .newer-posts {
   display: block;
