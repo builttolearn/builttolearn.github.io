@@ -12,6 +12,7 @@
 /* - Body typography - */
 body {
   -webkit-font-smoothing: antialiased;
+  font-size: 2em;
 }
 /* - Headers - */
 h1,
@@ -19,7 +20,6 @@ h2,
 h3,
 h4,
 h5 {
-  text-transform: uppercase;
   margin: 0;
 }
 h1 {
@@ -233,7 +233,6 @@ hr {
   font-weight: bold;
   text-align: center;
   line-height: 1;
-  text-transform: uppercase;
 }
 /* - Text aligns classes - */
 .text-left {
@@ -693,13 +692,13 @@ html {
 /* THEME FONTS */
 /* ----------- */
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Myriad Pro', Myriad, sans-serif;
 }
 body input,
 body textarea,
 body .btn,
 body button {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Myriad Pro', Myriad, sans-serif;
 }
 .lighter,
 .light,
@@ -2087,4 +2086,7 @@ ol.CodeRay li {
     margin: 0;
     overflow: visible;
     clip: auto;
+}
+#main p {
+    margin-bottom: 1.5em;
 }
